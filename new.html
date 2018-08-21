@@ -1,0 +1,93 @@
+  <html>
+  <head>
+  <title>Adyrate</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Noto+Sans|Pacifico|Ubuntu|Poppins|Roboto|Source+Sans+Pro|Work+Sans'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css'>
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+  <link rel='stylesheet prefetch'  href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+	  
+  <style>
+  label.ratings1{
+  padding-top:14px;
+  min-height: 60px;
+  padding-right: 20px;
+  margin-right: -1vw;
+  }
+	  [type="radio"].with-gap:checked + label:before {
+  border-radius: 50%;
+  border: 2px solid #0277bd; }
+  
+  [type="radio"].with-gap:checked + label:after {
+  border-radius: 50%;
+  border: 2px solid #0277bd;
+  background-color: #0277bd;
+  z-index: 0;
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  -ms-transform: scale(.5);
+  -o-transform: scale(.5);
+  transform: scale(.5); }
+  [type="radio"].with-gap.secondradio:checked + label:before {
+    border-radius: 50%;
+    border: 2px solid #0277bd; }
+    
+    [type="radio"].with-gap.secondradio:checked + label:after {
+    border-radius: 50%;
+    border: 2px solid #0277bd;
+    background-color: #0277bd;
+    z-index: 0;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    -o-transform: scale(.5);
+    transform: scale(.5); }
+
+  .input-field label {
+    color: #000d35 !important;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #000d35 !important;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #000d35 !important;
+    box-shadow: 0 1px 0 0 #000d35 !important;
+  }
+
+  
+[type="radio"].radio-ratings + label::before
+{
+  display:none;
+}
+[type="radio"].radio-ratings  + label::after
+{
+  display:none;
+}
+label.ratings1{
+  padding-top:14px;
+  min-height: 60px;
+  padding-right: 20px;
+  margin-right: -1vw;
+}
+  </style>
+  </head>
+  <body>
+  <div class="col s12">
+            <div class="row">
+              <input name="group1" class="radio-ratings" type="radio" id="test1" value="1" />
+              <label class="ratings1" href="#question-3" for="test1" style="background-color:#E91E63; color:#ffffff; font-weight:bolder;">1</label>
+              <input name="group1" class="radio-ratings" type="radio" id="test2" value="2" />
+              <label class="ratings1" href="#question-3" for="test2" style="background-color:#FF4081; color:#ffffff; font-weight:bolder; ">2</label>
+              <input name="group1" class="radio-ratings" type="radio" id="test3" value="3" />
+              <label class="ratings1" href="#question-3" for="test3" style="background-color:#FFC107; color:#ffffff; font-weight:bolder;">3</label>
+              <input name="group1" class="radio-ratings" type="radio" id="test4" value="4" />
+              <label class="ratings1" href="#question-3" for="test4" style="background-color:#4CAF50; color:#ffffff; font-weight:bolder;">4</label>
+              <input name="group1" class="radio-ratings" type="radio" id="test5" value="5" />
+              <label class="ratings1" href="#question-3" for="test5" style="background-color:#388E3C; color:#ffffff; font-weight:bolder;">5</label>
+           </div>
+  </div>
+ </body>
+ </html>
